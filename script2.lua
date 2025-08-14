@@ -462,7 +462,7 @@ end
 
 
 function waitServerHop()
-	task.wait(getgenv().settings.serverHopDelay * 60)
+	task.wait(getgenv().settings. 1 * 60)
 	serverHop()
 end
 
@@ -1875,3 +1875,4 @@ while task.wait(getgenv().settings.serverHopDelay * 60) do
 		hopSet()
 	end
 end
+
